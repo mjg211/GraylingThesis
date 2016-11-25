@@ -1,0 +1,5 @@
+exportPattern("gs.co", "max.fwer.gs.co", "realised.gs.co", "optimal.gs.be", "simulate.gs.be", "ssre.be", "gs.sw", "optimal.gs.sw", "ssre.sw")
+import(CEoptim, crossdes, DEoptim, GA, GenSA, gtools, hydroPSO, lme4, mvtnorm, nloptr, NMOF, pso, schoolmath, snowfall, soma, stats)
+S3method(plot, gsBE)
+S3method(plot, gsCO)
+S3method(plot, gsSW)
